@@ -1,0 +1,22 @@
+{
+    "editor.defaultFormatter": "ms-python.autopep8", // ms-python.python
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    // "files.autoSave": "afterDelay",
+    "python.languageServer": "Pylance", // ms-python.vscode-pylance
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+    ],
+    "python.formatting.autopep8Args": [
+        "--indent-size=4"
+    ],
+    "git.ignoreLimitWarning": true
+}
